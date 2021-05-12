@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     name: 'My first github hello world action'
     steps:
-    - name: Hello world action step
+    - name: My first github hello world action
       id: hello
-      uses: kush-acacium/hello-world-docker-action@v1
+      uses: actions/hello-world-docker-action@v1
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
