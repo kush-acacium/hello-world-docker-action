@@ -13,5 +13,7 @@ runs:
   using: 'docker'
   #image: jaschweder/sybase:latest
   image: 'Dockerfile'
+  ports:
+      - 2638:2638
   #args:
   #  - ${{ inputs.who-to-greet }}
