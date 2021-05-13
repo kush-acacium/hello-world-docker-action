@@ -11,7 +11,7 @@ description: 'Greet someone and record the time'
 #    description: 'The time we greeted you'
 runs:
   using: 'docker'
-  image: jaschweder/sybase:latest
-  #image: 'Dockerfile'
+  #image: jaschweder/sybase:latest
+  image: 'Dockerfile'
   #args:
   #  - ${{ inputs.who-to-greet }}
